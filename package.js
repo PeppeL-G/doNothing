@@ -1,6 +1,7 @@
 Package.describe({
 	summary: "Adds the global variable doNothing, storing a function doing nothing.",
 	version: "1.0.0",
+	name: "peppelg:do-nothing",
 	git: "https://github.com/PeppeL-G/doNothing.git"
 })
 

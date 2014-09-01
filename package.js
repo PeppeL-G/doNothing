@@ -1,7 +1,7 @@
 Package.describe({
 	summary: "Adds the global variable doNothing, storing a function doing nothing.",
 	version: "1.0.0",
-	git: " \* Fill me in! *\ "
+	git: "https://github.com/PeppeL-G/doNothing.git"
 })
 
 Package.onUse(function(api){

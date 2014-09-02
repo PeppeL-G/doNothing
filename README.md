@@ -7,6 +7,8 @@ This is similar to [jQuerys noop function](http://api.jquery.com/jquery.noop/).
 
 Purpose and Motivation
 ----------------------
-This may vary from person to person, but some find it more easy to write
-`doNothing` than `function(){}`. And while reading the code, `doNothing` will
-probably make more sense and be easier to interpret than `function(){}`.
+Some programmers find it more easy to write `doNothing` than `function(){}`. And
+while reading the code, `doNothing` will probably make more sense and be easier
+to interpret than `function(){}`. Further more, it seems like there's a [gain in
+speed](http://jsperf.com/function-doing-nothing) using `doNothing` (assuming the
+variale look up time won't take too long). 
